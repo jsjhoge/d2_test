@@ -1,0 +1,19 @@
+a: All Users {
+    c: OG {
+        Alice
+        Bob
+    }
+    d: Pond Scum {
+        Josh
+        Roger
+        Zac
+    }
+}
+# list groups here
+b: All Groups {
+    Administrators
+    Users
+}
+# relationships
+a.c -- b.Administrators
+a.d -- b.Users
